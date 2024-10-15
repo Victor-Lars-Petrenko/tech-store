@@ -47,7 +47,7 @@ const Filter = () => {
       </form>
 
       <button type="button" className={css.addBtn}>
-        +
+        Add Product
       </button>
     </section>
   );

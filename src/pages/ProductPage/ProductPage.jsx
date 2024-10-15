@@ -15,20 +15,46 @@ const ProductPage = () => {
   const { imageUrl, name, count, size, weight, comments } = product;
 
   return (
-    <div className={css.productContainer}>
-      <img src={imageUrl} alt={name} />
-      <h1>{name}</h1>
-      <p>Count: {count}</p>
-      <p>
-        Size: {size.width}x{size.height} px
-      </p>
-      <p>Weight: {weight}</p>
-      <h2>Comments</h2>
-      <ul>
-        {comments.map(comment => (
-          <li key={comment.id}>{comment.description}</li>
-        ))}
-      </ul>
+    <div className={css.productPage}>
+      <div className={css.imageContainer}>
+        <img src={imageUrl} alt={name} />
+      </div>
+      <div className={css.detailsContainer}>
+        <h1>{name}</h1>
+        <p>Count: {count}</p>
+        <p>
+          Size: {size.width} x {size.height}
+        </p>
+        <p>Weight: {weight}</p>
+        <div className={css.buttonsContainer}>
+          <button className={`${css.button} ${css.editButton}`}>
+            Edit Product
+          </button>
+          <button className={`${css.button} ${css.deleteButton}`}>
+            Delete Product
+          </button>
+        </div>
+        <h2>Comments</h2>
+        <ul className={css.commentsList}>
+          {comments.map(comment => (
+            <li key={comment.id} className={css.commentItem}>
+              <p className={css.commentText}>{comment.description}</p>
+              <p className={css.commentDate}>Added: {comment.date}</p>
+              <div className={css.commentButtons}>
+                <button className={`${css.button} ${css.editButton}`}>
+                  Edit
+                </button>
+                <button className={`${css.button} ${css.deleteButton}`}>
+                  Delete
+                </button>
+              </div>
+            </li>
+          ))}
+        </ul>
+        <button className={`${css.button} ${css.addCommentButton}`}>
+          Add Comment
+        </button>
+      </div>
     </div>
   );
 };

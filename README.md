@@ -1,3 +1,5 @@
+<img src="./public/logo192.png" alt="logo" style="display: block; margin: 0 auto;" />
+
 # Tech Store App
 
 This application is a web-based shop simulation where users can browse and
