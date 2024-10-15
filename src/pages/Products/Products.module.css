@@ -54,3 +54,9 @@ h1 {
 .button:hover {
   background-color: #0056b3;
 }
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}

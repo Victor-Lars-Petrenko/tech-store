@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { setFilter } from "./actions";
 
-const initialState = "";
+const initialState = "A to Z";
 
 const filterSlice = createSlice({
   name: "filter",
