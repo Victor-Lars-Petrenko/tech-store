@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktech_store=self.webpackChunktech_store||[]).push([[694],{694:(e,t,h)=>{h.r(t),h.d(t,{default:()=>c});var s=h(579);const c=e=>{let{imageUrl:t,name:h,count:c,size:{height:n,width:r},weight:i,comments:a}=e;return(0,s.jsx)("main",{children:(0,s.jsx)("h1",{children:h})})}}}]);
+//# sourceMappingURL=694.70df0bf3.chunk.js.map
