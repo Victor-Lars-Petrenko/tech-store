@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tech-store/static/css/main.dea0844c.css",
+    "main.js": "/tech-store/static/js/main.33993fab.js",
+    "static/css/803.10226201.chunk.css": "/tech-store/static/css/803.10226201.chunk.css",
+    "static/js/803.ac40e1ff.chunk.js": "/tech-store/static/js/803.ac40e1ff.chunk.js",
+    "static/js/815.891bf0fa.chunk.js": "/tech-store/static/js/815.891bf0fa.chunk.js",
+    "static/media/logo192.png": "/tech-store/static/media/logo192.7250b38a9d6fe40616a0.png",
+    "index.html": "/tech-store/index.html",
+    "static/media/icons.svg": "/tech-store/static/media/icons.a544552e0b8add65dcfd80b83597a9cd.svg",
+    "main.dea0844c.css.map": "/tech-store/static/css/main.dea0844c.css.map",
+    "main.33993fab.js.map": "/tech-store/static/js/main.33993fab.js.map",
+    "803.10226201.chunk.css.map": "/tech-store/static/css/803.10226201.chunk.css.map",
+    "803.ac40e1ff.chunk.js.map": "/tech-store/static/js/803.ac40e1ff.chunk.js.map",
+    "815.891bf0fa.chunk.js.map": "/tech-store/static/js/815.891bf0fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dea0844c.css",
+    "static/js/main.33993fab.js"
+  ]
+}
