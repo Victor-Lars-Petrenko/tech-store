@@ -1,35 +1,49 @@
-import { useSelector } from "react-redux";
+import { useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import css from "./Filter.module.css";
 import { filterProductsItems } from "assets/items/filterItems";
 import { selectFilter } from "../../redux/filter/selectors";
+import { setFilter } from "../../redux/filter/actions";
 
 const Filter = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const filter = useSelector(selectFilter);
+  const dispatch = useDispatch();
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(prev => !prev);
+  };
+
+  const handleFilterSelect = item => {
+    dispatch(setFilter(item));
+    setIsDropdownOpen(false);
+  };
 
   return (
-    <section>
-      <form>
-        <button type="button" className={css.filterMenu}>
+    <section className={css.filterSection}>
+      <form className={css.filterForm}>
+        <button
+          type="button"
+          className={css.filterMenu}
+          onClick={toggleDropdown}
+        >
           {filter}
         </button>
-        <ul>
-          {filterProductsItems.map(item => (
-            <li key={item} className={css.filterOptions}>
-              {item}
-            </li>
-          ))}
-        </ul>
-
-        <button
-          type="submit"
-          className={css.filterBtn}
-          title="search"
-          aria-label="search"
-        >
-          <svg className={css.magnifyingGlass} width="15" height="15">
-            <use href="../../assets/images/icons.svg#icon-search"></use>
-          </svg>
-        </button>
+        {isDropdownOpen && (
+          <ul className={css.filterList}>
+            {filterProductsItems.map(item => (
+              <li key={item} className={css.filterOption}>
+                <button
+                  type="button"
+                  className={css.filterBtn}
+                  onClick={() => handleFilterSelect(item)}
+                >
+                  {item}
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
       </form>
 
       <button type="button" className={css.addBtn}>

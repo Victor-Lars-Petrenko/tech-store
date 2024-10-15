@@ -1,0 +1,69 @@
+.filterSection {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.filterForm {
+  position: relative;
+}
+
+.filterMenu {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  width: 120px;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.filterMenu:hover {
+  background-color: #0056b3;
+}
+
+.filterList {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  width: 120px;
+}
+
+.filterOption button {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.filterOption button:hover {
+  background-color: #f0f0f0;
+}
+
+.addBtn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.addBtn:hover {
+  background-color: #0056b3;
+}

@@ -10,7 +10,7 @@ const AppRoutes = () => {
     <Routes>
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<Products />} />
-        <Route path="participants" element={<ProductPage />} />
+        <Route path="product/:id" element={<ProductPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Route>
     </Routes>
