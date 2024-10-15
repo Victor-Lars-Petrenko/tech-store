@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/tech-store/static/css/main.dea0844c.css",
-    "main.js": "/tech-store/static/js/main.ab63e2c8.js",
-    "static/css/53.ef0c537b.chunk.css": "/tech-store/static/css/53.ef0c537b.chunk.css",
-    "static/js/53.ac3babd8.chunk.js": "/tech-store/static/js/53.ac3babd8.chunk.js",
-    "static/js/694.70df0bf3.chunk.js": "/tech-store/static/js/694.70df0bf3.chunk.js",
+    "main.js": "/tech-store/static/js/main.721299d2.js",
+    "static/css/5.8f0a454f.chunk.css": "/tech-store/static/css/5.8f0a454f.chunk.css",
+    "static/js/5.207554f0.chunk.js": "/tech-store/static/js/5.207554f0.chunk.js",
+    "static/css/419.31d6cfe0.chunk.css": "/tech-store/static/css/419.31d6cfe0.chunk.css",
+    "static/js/419.c9c4b385.chunk.js": "/tech-store/static/js/419.c9c4b385.chunk.js",
+    "static/js/99.82eb35a4.chunk.js": "/tech-store/static/js/99.82eb35a4.chunk.js",
     "static/media/logo192.png": "/tech-store/static/media/logo192.7250b38a9d6fe40616a0.png",
     "index.html": "/tech-store/index.html",
     "static/media/icons.svg": "/tech-store/static/media/icons.923caf70b2d4bcfd0da0e33775b2768a.svg",
     "main.dea0844c.css.map": "/tech-store/static/css/main.dea0844c.css.map",
-    "main.ab63e2c8.js.map": "/tech-store/static/js/main.ab63e2c8.js.map",
-    "53.ef0c537b.chunk.css.map": "/tech-store/static/css/53.ef0c537b.chunk.css.map",
-    "53.ac3babd8.chunk.js.map": "/tech-store/static/js/53.ac3babd8.chunk.js.map",
-    "694.70df0bf3.chunk.js.map": "/tech-store/static/js/694.70df0bf3.chunk.js.map"
+    "main.721299d2.js.map": "/tech-store/static/js/main.721299d2.js.map",
+    "5.8f0a454f.chunk.css.map": "/tech-store/static/css/5.8f0a454f.chunk.css.map",
+    "5.207554f0.chunk.js.map": "/tech-store/static/js/5.207554f0.chunk.js.map",
+    "419.c9c4b385.chunk.js.map": "/tech-store/static/js/419.c9c4b385.chunk.js.map",
+    "99.82eb35a4.chunk.js.map": "/tech-store/static/js/99.82eb35a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dea0844c.css",
-    "static/js/main.ab63e2c8.js"
+    "static/js/main.721299d2.js"
   ]
 }
