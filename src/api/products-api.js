@@ -8,3 +8,8 @@ export const getProductsRequest = async () => {
   const data = await instance.get(`/products`);
   return data;
 };
+
+export const AddProductRequest = async () => {
+  const data = await instance.post(`/products`);
+  return data;
+};

@@ -7,6 +7,7 @@ import { setFilter } from "../../redux/filter/actions";
 
 const Filter = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const filter = useSelector(selectFilter);
   const dispatch = useDispatch();
 
