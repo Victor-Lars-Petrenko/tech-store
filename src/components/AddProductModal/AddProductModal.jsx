@@ -51,8 +51,44 @@ const AddProductModal = () => {
           Number of products
           <input
             type="number"
+            min="0"
             autocopmlete="off"
             name="count"
+            value={formState.name}
+            onChange={handleChange}
+          />
+        </label>
+        <h4>Size of the product</h4>
+        <div>
+          <label>
+            Width
+            <input
+              type="number"
+              min="0"
+              autocopmlete="off"
+              name="width"
+              value={formState.name}
+              onChange={handleChange}
+            />
+          </label>
+          <label>
+            Height
+            <input
+              type="number"
+              min="0"
+              autocopmlete="off"
+              name="height"
+              value={formState.name}
+              onChange={handleChange}
+            />
+          </label>
+        </div>
+        <label>
+          Weight
+          <input
+            type="text"
+            autocopmlete="off"
+            name="weight"
             value={formState.name}
             onChange={handleChange}
           />

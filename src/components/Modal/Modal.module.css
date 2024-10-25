@@ -15,20 +15,20 @@
   position: relative;
   border-radius: 20px;
   padding: 40px;
-  background-color: var(--btn-text-color);
-  width: 982px;
-  height: 720px;
+  background-color: white;
+  width: 600px;
+  max-height: 720px;
   overflow-y: auto;
 }
 
 .iconCross {
   width: 32px;
   height: 32px;
-  stroke: var(--main-text-color);
+  stroke: black;
 }
 
 .closeBtn {
   position: absolute;
-  right: 40px;
-  top: 40px;
+  right: 16px;
+  top: 16px;
 }
