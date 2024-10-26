@@ -9,7 +9,7 @@ export const getProductsRequest = async () => {
   return data;
 };
 
-export const AddProductRequest = async () => {
-  const data = await instance.post(`/products`);
+export const AddProductRequest = async body => {
+  const data = await instance.post(`/products`, body);
   return data;
 };

@@ -12,3 +12,15 @@ export const fetchProducts = createAsyncThunk(
     }
   }
 );
+
+export const addProduct = createAsyncThunk(
+  "products/add",
+  async ({ body }, { rejectWithValue }) => {
+    try {
+      const { data } = await productsApi.AddProductRequest(body);
+      return data;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
+  }
+);
