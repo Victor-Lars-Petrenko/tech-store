@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/tech-store/static/css/main.dea0844c.css",
-    "main.js": "/tech-store/static/js/main.7b764c55.js",
-    "static/css/353.da6c1d78.chunk.css": "/tech-store/static/css/353.da6c1d78.chunk.css",
-    "static/js/353.5dd08882.chunk.js": "/tech-store/static/js/353.5dd08882.chunk.js",
+    "main.js": "/tech-store/static/js/main.d18bcdc6.js",
+    "static/css/625.6164814a.chunk.css": "/tech-store/static/css/625.6164814a.chunk.css",
+    "static/js/625.6c5f781b.chunk.js": "/tech-store/static/js/625.6c5f781b.chunk.js",
     "static/css/419.344ed28d.chunk.css": "/tech-store/static/css/419.344ed28d.chunk.css",
     "static/js/419.7e16127c.chunk.js": "/tech-store/static/js/419.7e16127c.chunk.js",
     "static/js/99.82eb35a4.chunk.js": "/tech-store/static/js/99.82eb35a4.chunk.js",
@@ -11,15 +11,15 @@
     "index.html": "/tech-store/index.html",
     "static/media/icons.svg": "/tech-store/static/media/icons.48263bcfb73fe1ced2a2fe4abfe1fb6e.svg",
     "main.dea0844c.css.map": "/tech-store/static/css/main.dea0844c.css.map",
-    "main.7b764c55.js.map": "/tech-store/static/js/main.7b764c55.js.map",
-    "353.da6c1d78.chunk.css.map": "/tech-store/static/css/353.da6c1d78.chunk.css.map",
-    "353.5dd08882.chunk.js.map": "/tech-store/static/js/353.5dd08882.chunk.js.map",
+    "main.d18bcdc6.js.map": "/tech-store/static/js/main.d18bcdc6.js.map",
+    "625.6164814a.chunk.css.map": "/tech-store/static/css/625.6164814a.chunk.css.map",
+    "625.6c5f781b.chunk.js.map": "/tech-store/static/js/625.6c5f781b.chunk.js.map",
     "419.344ed28d.chunk.css.map": "/tech-store/static/css/419.344ed28d.chunk.css.map",
     "419.7e16127c.chunk.js.map": "/tech-store/static/js/419.7e16127c.chunk.js.map",
     "99.82eb35a4.chunk.js.map": "/tech-store/static/js/99.82eb35a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dea0844c.css",
-    "static/js/main.7b764c55.js"
+    "static/js/main.d18bcdc6.js"
   ]
 }
