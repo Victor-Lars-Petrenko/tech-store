@@ -2,6 +2,7 @@ import { useState } from "react";
 import css from "./AddProductModal.module.css";
 import { useDispatch } from "react-redux";
 import { addProduct } from "../../redux/products/operations";
+import { productSchema } from "schemas/productSchema";
 
 const initialFormState = {
   imageUrl: "",
@@ -24,13 +25,16 @@ const AddProductModal = () => {
 
     if (name === "width" && name === "height") {
       setFormState({ size: { [name]: value } });
+      return;
     }
     setFormState({ [name]: value });
   };
 
   const handleSubmit = e => {
     e.preventDefault();
-    dispatch(addProduct({ formState }));
+    productSchema
+      .isValid(formState)
+      .then(() => dispatch(addProduct({ formState })));
   };
 
   return (
@@ -43,6 +47,7 @@ const AddProductModal = () => {
             type="text"
             autoComplete="off"
             name="name"
+            required
             value={formState.name}
             onChange={handleChange}
             className={css.input}
@@ -54,6 +59,7 @@ const AddProductModal = () => {
             type="text"
             autoComplete="off"
             name="imageUrl"
+            required
             value={formState.imageUrl}
             onChange={handleChange}
             className={css.input}
@@ -66,6 +72,7 @@ const AddProductModal = () => {
             min="0"
             autoComplete="off"
             name="count"
+            required
             value={formState.count}
             onChange={handleChange}
             className={`${css.input} ${css.inputNumber}`}
@@ -80,7 +87,8 @@ const AddProductModal = () => {
               min="0"
               autoComplete="off"
               name="width"
-              value={formState.width}
+              required
+              value={formState.size.width}
               onChange={handleChange}
               className={`${css.input} ${css.inputNumber}`}
             />
@@ -92,7 +100,8 @@ const AddProductModal = () => {
               min="0"
               autoComplete="off"
               name="height"
-              value={formState.height}
+              required
+              value={formState.size.height}
               onChange={handleChange}
               className={`${css.input} ${css.inputNumber}`}
             />
@@ -104,6 +113,7 @@ const AddProductModal = () => {
             type="text"
             autoComplete="off"
             name="weight"
+            required
             value={formState.weight}
             onChange={handleChange}
             className={css.input}
