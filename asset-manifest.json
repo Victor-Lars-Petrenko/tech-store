@@ -1,25 +1,27 @@
 {
   "files": {
     "main.css": "/tech-store/static/css/main.dea0844c.css",
-    "main.js": "/tech-store/static/js/main.d18bcdc6.js",
-    "static/css/625.6164814a.chunk.css": "/tech-store/static/css/625.6164814a.chunk.css",
-    "static/js/625.6c5f781b.chunk.js": "/tech-store/static/js/625.6c5f781b.chunk.js",
+    "main.js": "/tech-store/static/js/main.e6a6be2a.js",
+    "static/css/890.7ed4085e.chunk.css": "/tech-store/static/css/890.7ed4085e.chunk.css",
+    "static/js/890.cdacd5e8.chunk.js": "/tech-store/static/js/890.cdacd5e8.chunk.js",
     "static/css/419.344ed28d.chunk.css": "/tech-store/static/css/419.344ed28d.chunk.css",
     "static/js/419.7e16127c.chunk.js": "/tech-store/static/js/419.7e16127c.chunk.js",
     "static/js/99.82eb35a4.chunk.js": "/tech-store/static/js/99.82eb35a4.chunk.js",
+    "static/js/899.63dd10df.chunk.js": "/tech-store/static/js/899.63dd10df.chunk.js",
     "static/media/logo192.png": "/tech-store/static/media/logo192.7250b38a9d6fe40616a0.png",
     "index.html": "/tech-store/index.html",
     "static/media/icons.svg": "/tech-store/static/media/icons.48263bcfb73fe1ced2a2fe4abfe1fb6e.svg",
     "main.dea0844c.css.map": "/tech-store/static/css/main.dea0844c.css.map",
-    "main.d18bcdc6.js.map": "/tech-store/static/js/main.d18bcdc6.js.map",
-    "625.6164814a.chunk.css.map": "/tech-store/static/css/625.6164814a.chunk.css.map",
-    "625.6c5f781b.chunk.js.map": "/tech-store/static/js/625.6c5f781b.chunk.js.map",
+    "main.e6a6be2a.js.map": "/tech-store/static/js/main.e6a6be2a.js.map",
+    "890.7ed4085e.chunk.css.map": "/tech-store/static/css/890.7ed4085e.chunk.css.map",
+    "890.cdacd5e8.chunk.js.map": "/tech-store/static/js/890.cdacd5e8.chunk.js.map",
     "419.344ed28d.chunk.css.map": "/tech-store/static/css/419.344ed28d.chunk.css.map",
     "419.7e16127c.chunk.js.map": "/tech-store/static/js/419.7e16127c.chunk.js.map",
-    "99.82eb35a4.chunk.js.map": "/tech-store/static/js/99.82eb35a4.chunk.js.map"
+    "99.82eb35a4.chunk.js.map": "/tech-store/static/js/99.82eb35a4.chunk.js.map",
+    "899.63dd10df.chunk.js.map": "/tech-store/static/js/899.63dd10df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dea0844c.css",
-    "static/js/main.d18bcdc6.js"
+    "static/js/main.e6a6be2a.js"
   ]
 }
